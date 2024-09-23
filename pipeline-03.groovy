@@ -16,7 +16,7 @@ pipeline {
         }
         stage("Test") {
             steps {
-                echo "Test stage.Updated!!"
+                echo "Test stage"
             }
         }
         stage("Release") {
