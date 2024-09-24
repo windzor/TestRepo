@@ -56,7 +56,7 @@ pipeline {
                 script {
                     try {
                         sh '''
-                            echo "Publishing..."
+                            echo "Publishing... Windzor"
                             
                         '''
                     } catch (err) {
