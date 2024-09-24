@@ -59,6 +59,7 @@ pipeline {
                             echo "Publishing... Windzor"
                             
                         '''
+                        currentBuild.result = 'FAILURE'
                     } catch (err) {
                         echo "Failed: [Publish] ${err}"
                         currentBuild.result = 'FAILURE'
